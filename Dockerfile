@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/quizspring-0.0.1-SNAPSHOT.jar quizapp.jar
-EXPOSE 7777
-ENTRYPOINT ["java","-jar","quizapp.jar"]
+COPY --from=build /target/lifeplus-0.0.1-SNAPSHOT.jar lifeplus.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","lifeplus.jar"]
