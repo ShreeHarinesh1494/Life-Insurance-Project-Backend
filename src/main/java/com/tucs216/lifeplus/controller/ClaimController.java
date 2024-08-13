@@ -23,7 +23,7 @@ import com.tucs216.lifeplus.services.ClaimService;
 
 @RestController
 @RequestMapping("/claims")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://3.219.241.79:80")
 public class ClaimController {
     @Autowired
     private ClaimService claimService;
