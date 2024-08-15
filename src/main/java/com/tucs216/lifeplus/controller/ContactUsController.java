@@ -17,7 +17,7 @@ import com.tucs216.lifeplus.services.ContactUsService;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "http://34.234.35.144:80")
+@CrossOrigin(origins = "*")
 public class ContactUsController {
     @Autowired
     private ContactUsService contactUsService;
