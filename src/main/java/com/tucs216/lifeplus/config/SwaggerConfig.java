@@ -33,7 +33,7 @@ public class SwaggerConfig {
                         .license(new License()
                                 .name("Apache 2.0")
                                 .url("https://www.apache.org/licenses/LICENSE-2.0.html")))
-                .servers(List.of(new Server().url("http://34.195.64.198:8080")))
+                .servers(List.of(new Server().url("http://34.234.35.144")))
                 .addSecurityItem(new SecurityRequirement()
                         .addList("bearerAuth"))
                 .components(new Components()
