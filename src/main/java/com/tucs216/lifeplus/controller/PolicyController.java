@@ -19,7 +19,7 @@ import com.tucs216.lifeplus.services.PolicyService;
 
 @RestController
 @RequestMapping("/policies")
-@CrossOrigin(origins = "http://34.195.64.198:80")
+@CrossOrigin(origins = "http://34.234.35.144")
 public class PolicyController {
     @Autowired
     private PolicyService policyService;
